@@ -2,8 +2,10 @@ package adarsh.springboot.jokesapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
+@ImportResource("classpath:chuck-config.xml")// xml for java config
 public class JokesAppApplication {
 
     public static void main(String[] args) {
